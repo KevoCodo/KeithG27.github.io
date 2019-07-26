@@ -1,0 +1,30 @@
+:root{
+    --text-large:1rem;
+    --cream:#CCC8BF;
+}
+
+
+*{
+    padding:0;
+    margin:0;
+    font-size: var(--text-large);
+}
+
+body{
+    background-color: var(--cream);
+}
+
+p, h1, h2, h3{
+    font-size:200%;
+}
+
+.navbar{
+    /*Check the bootstrap scss file*/
+    border-bottom: 4px solid black!important;
+}
+
+/*Hover Effect on Images*/
+img:hover{
+    transition: all 0.5s;
+    opacity:0.60;
+}
